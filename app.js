@@ -150,7 +150,7 @@ function clickHandler(e) {
       output.innerText = "YYAAA!!!!😍😍 Your Birthday is a Palindrome !";
     } else {
       var [ctr, nxtDate] = getNextPalindromeDate(date);
-      output.innerText = `No 😦😦! Your Birthday is not Paliindrome . However,  The next palindrome date is ${nxtDate.day}-${nxtDate.month}-${nxtDate.year},you missed it by ${ctr} days .`;
+      output.innerText = `No 😦😦! Your Birthday is not Palindrome . However,  The next palindrome date is ${nxtDate.day}-${nxtDate.month}-${nxtDate.year},you missed it by ${ctr} days .`;
     }
   }
 }

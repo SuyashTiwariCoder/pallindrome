@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
+.root{
+    --primary-color : rgb(255, 123, 156);
+}
+
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    display: block;
+}
+
+input {
+    padding: 1rem;
+    width: 70%;
+}
+
+#bday-input {
+    padding-top: 1rem;
+    cursor: pointer;
+    font-family: 'Carattere', cursive;font-size: 1.5rem;
+    background-color: rgb(186, 191, 209);
+    border-radius:0.5rem;
+   
+}
+
+h1 {
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+body {
+    display: block;
+    font-family: 'Carattere', cursive;
+    background-color: rgb(255, 123, 156);
+    border: thick double;
+    
+
+ 
+    
+}
+
+#check-btn {
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 20%;
+    cursor: pointer;
+    font-family: 'Carattere', cursive;
+    font-size: 1.5rem; background-color: rgb(186, 191, 209);
+    border-radius:0.5rem;
+}
+#result{
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+/* #img{
+
+    back
+} */
